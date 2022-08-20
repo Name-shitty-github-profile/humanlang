@@ -45,6 +45,6 @@ def process_line(line: str):
 
 def process_set(dat: dict):
   set: str = dat['$$$set']
-  if set == 'func':
+  if set == '$$$func':
     return dat['$$$func'](dat['$$$argument'])
   return set
