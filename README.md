@@ -2,7 +2,7 @@
 The source code of the humanlang module for machine learning low ressources support
 # special dict structure
 functions
-```json
+```py
 {
   "word": 
     "$$$set": "$$$func",
