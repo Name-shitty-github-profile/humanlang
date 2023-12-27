@@ -8,7 +8,6 @@ def process_conv(conv: str, *, debug = False) -> list:
       if debug is False:
         if advice is False:
           da = "Invalid learning data | enable debug for traceback"
-          advice = True
         else:
           da = "I had an error while processing your thing with my data"
       else:
